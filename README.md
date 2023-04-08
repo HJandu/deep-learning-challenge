@@ -76,8 +76,8 @@ Click here to view [code](https://github.com/HJandu/deep-learning-challenge/blob
 
 ## Summary
 
-In conclusion, the final model performed better with a predictive accuracy of 77.2% and loss of 0.465, which is less than the loss of the first and second model. Trying different activation functions, removing unnecessary columns, adding more hidden layers and inclreasing the epochs has helped with with the predictive accuracy score. 
-In the future, I could continue with the 'tanh' function and adjust some of the binning thresholds for the `NAME`, `CLASSIFICATION`, and `APPLICATION_TYPE` value counts.
+In conclusion, the final model performed better with a predictive accuracy of 77.2% and loss of 0.465, which is less than the loss of the first and second model. Trying different activation functions, removing unnecessary columns, adding more hidden layers and increasing the epochs has helped with with the predictive accuracy score. 
+In the future, I could continue with the 'tanh' function and adjust some of the binning thresholds for the `NAME`, `CLASSIFICATION`, and `APPLICATION_TYPE` value counts, to see if that has an impact on the accuracy, or even increase the number of epochs to 200, to ensure a better chance of finding an optimum model.
 
 
 
