@@ -14,9 +14,20 @@ Using my knowledge of Pandas and scikit-learn’s StandardScaler(), I preprocess
 
 ## Compile, Train, and Evaluate the Model
 
-Using my knowledge of TensorFlow, I designed a neural network model to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset. Once I completed this step, I compiled, trained, and evaluated my binary classification model to calculate the model’s loss and accuracy.
+Using my knowledge of TensorFlow and Keras, I designed a neural network model to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset. Once I completed this step, I compiled, trained, and evaluated my binary classification model to calculate the model’s loss and accuracy.
 
-Continue using the file in Google Colab in which you performed the preprocessing steps from Step 1.
+* First attempt
+
+![first_attempt](https://user-images.githubusercontent.com/116304118/230739546-9a2eb2fb-a366-4227-bfc1-7dc870af502d.png)
+
+
+![first_attempt1](https://user-images.githubusercontent.com/116304118/230739532-2bdd70d1-d104-4f32-bff5-a945c1e1de49.png)
+
+
+To view the HDF5 file, click here [`AlphabetSoupCharity.h5`]("https://github.com/HJandu/deep-learning-challenge/blob/main/h5_files/AlphabetSoupCharity.h5")
+
+## Optimize the Model
+
 
 Create a neural network model by assigning the number of input features and nodes for each layer using TensorFlow and Keras.
 
