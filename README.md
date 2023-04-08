@@ -20,6 +20,12 @@ Using my knowledge of TensorFlow and Keras, I designed a neural network model to
 
 * First attempt
 
+For the first attempt, I used the `relu` activation function. There were two layers - layer 1 had 70 hidden nodes and layer 2  had 30 hidden nodes.  Epochs was 100. For the outer layer, I used `sigmoid`.
+
+
+![Screen Shot 2023-04-09 at 00 15 10](https://user-images.githubusercontent.com/116304118/230746444-ba25feab-8f80-46c3-b345-6a7d20c53931.png)
+
+
 ![first_attempt](https://user-images.githubusercontent.com/116304118/230739546-9a2eb2fb-a366-4227-bfc1-7dc870af502d.png)
 
 
@@ -28,7 +34,7 @@ Using my knowledge of TensorFlow and Keras, I designed a neural network model to
 
 To view the results, click here [`AlphabetSoupCharity.h5`](https://github.com/HJandu/deep-learning-challenge/blob/main/h5_files/AlphabetSoupCharity.h5)
 
-Click here to view [code]
+Click here to view [code](https://github.com/HJandu/deep-learning-challenge/blob/main/starter_code_TestData.ipynb)
 
 ## Optimize the Model
 
@@ -36,6 +42,11 @@ Using my knowledge of TensorFlow, I optimized my model to achieve a target predi
 This was achieved by dropping only the 'NAME' column of the database, adding more neurons to the hidden layers and more epochs. 
 
 * Second attempt
+
+For the second attempt, I used the same activation function `relu`, however increased the number of layers and the number of nodes for each layer. See images below. 
+
+![Screen Shot 2023-04-09 at 00 14 18](https://user-images.githubusercontent.com/116304118/230746590-2c9298c0-9268-4eb4-a7cc-bf7173ac96f0.png)
+
 
 ![second_attempt_1](https://user-images.githubusercontent.com/116304118/230743136-cec2f187-398a-481f-87a1-9dfb087ee51e.png)
 
@@ -45,7 +56,7 @@ This model achieved a predictive accuracy of 76.5%, which is higher than 75%.
 
 To view the results, click here [`AlphabetSoupCharity_Optimization.h5`](https://github.com/HJandu/deep-learning-challenge/blob/main/h5_files/AlphabetSoupCharity_Optimization.h5)
 
-Click here to view [code]
+Click here to view [code](https://github.com/HJandu/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization.ipynb)
 
 ## Final try
 
@@ -59,9 +70,9 @@ With this model, the predictive accuracy was 77.2%.
 
 ![Screen Shot 2023-04-08 at 23 30 55](https://user-images.githubusercontent.com/116304118/230745454-dce0dfe6-a0c9-488f-817d-2040d50e2434.png)
 
-To view the results, click here[` `](. ) 
+To view the results, click here[`AlphabetSoupCharity_Optimization_final`](https://github.com/HJandu/deep-learning-challenge/blob/main/h5_files/AlphabetSoupCharity_Optimization_final.h5 ) 
 
-Click here to view [code] 
+Click here to view [code](https://github.com/HJandu/deep-learning-challenge/blob/main/AlphabetSoupCharity_Optimization_final.ipynb)
 
 ## Summary
 
