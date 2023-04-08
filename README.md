@@ -43,7 +43,7 @@ This was achieved by dropping only the 'NAME' column of the database, adding mor
 
 * Second attempt
 
-For the second attempt, I used the same activation function `relu`, however increased the number of layers and the number of nodes for each layer. See images below. 
+For the second attempt, I used the same activation function `relu`, however increased the number of layers and the number of nodes for each layer. I also increased the number of epochs from 100 to 150, as I felt that it would help with achieving a higher than 75% accuracy. See image below. 
 
 ![Screen Shot 2023-04-09 at 00 14 18](https://user-images.githubusercontent.com/116304118/230746590-2c9298c0-9268-4eb4-a7cc-bf7173ac96f0.png)
 
