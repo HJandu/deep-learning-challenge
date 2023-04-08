@@ -26,12 +26,15 @@ Using my knowledge of TensorFlow and Keras, I designed a neural network model to
 
 To view the results, click here [`AlphabetSoupCharity.h5`](https://github.com/HJandu/deep-learning-challenge/blob/main/h5_files/AlphabetSoupCharity.h5)
 
+Click here to view [code]
+
 ## Optimize the Model
 
 Using my knowledge of TensorFlow, I optimized my model to achieve a target predictive accuracy higher than 75%. 
 This was achieved by dropping only the 'NAME' column of the database, adding more neurons to the hidden layers and more epochs. 
 
 * Second attempt
+
 ![second_attempt_1](https://user-images.githubusercontent.com/116304118/230743136-cec2f187-398a-481f-87a1-9dfb087ee51e.png)
 
 ![second_attemp](https://user-images.githubusercontent.com/116304118/230743148-a1270395-33ed-4e54-a6da-592ef4448b10.png)
@@ -40,10 +43,11 @@ This model achieved a predictive accuracy of 76.5%, which is higher than 75%.
 
 To view the results, click here [`AlphabetSoupCharity_Optimization.h5`](https://github.com/HJandu/deep-learning-challenge/blob/main/h5_files/AlphabetSoupCharity_Optimization.h5)
 
+Click here to view [code]
 
 ## Final try
 
-Although the second attempt achieved 76.5% predictive accuracy, which is higher than 75%, I thought I would try changing the function from `relu` to `LeakyReLU`, to see if a even higher predictive accuracy score could be achieved. I  kept everything the same, including the number of layers. 
+Although the second attempt achieved 76.5% predictive accuracy, which is higher than 75%, I thought I would try changing the activation function from `relu` to `LeakyReLU`, to see if a even higher predictive accuracy score could be achieved. I  kept everything the same, including the number of layers. 
 With this model, the predictive accuracy was 77.2%. 
 
 ![Screen Shot 2023-04-08 at 23 31 15](https://user-images.githubusercontent.com/116304118/230745389-ad048d20-7259-450b-86a3-22e708fdb660.png)
@@ -53,6 +57,9 @@ With this model, the predictive accuracy was 77.2%.
 
 ![Screen Shot 2023-04-08 at 23 30 55](https://user-images.githubusercontent.com/116304118/230745454-dce0dfe6-a0c9-488f-817d-2040d50e2434.png)
 
+To view the results, click here[` `](. ) 
+
+Click here to view [code] 
 
 ## Summary
 
