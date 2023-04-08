@@ -24,25 +24,40 @@ Using my knowledge of TensorFlow and Keras, I designed a neural network model to
 ![first_attempt1](https://user-images.githubusercontent.com/116304118/230739532-2bdd70d1-d104-4f32-bff5-a945c1e1de49.png)
 
 
-To view the HDF5 file, click here [`AlphabetSoupCharity.h5`](https://github.com/HJandu/deep-learning-challenge/blob/main/h5_files/AlphabetSoupCharity.h5)
+To view the results, click here [`AlphabetSoupCharity.h5`](https://github.com/HJandu/deep-learning-challenge/blob/main/h5_files/AlphabetSoupCharity.h5)
 
 ## Optimize the Model
 
+Using my knowledge of TensorFlow, I optimized my model to achieve a target predictive accuracy higher than 75%. 
+This was achieved by dropping only the 'NAME' column of the database, adding more neurons to the hidden layers and more epochs. 
 
-Create a neural network model by assigning the number of input features and nodes for each layer using TensorFlow and Keras.
+* Second attempt
+![second_attempt_1](https://user-images.githubusercontent.com/116304118/230743136-cec2f187-398a-481f-87a1-9dfb087ee51e.png)
 
-Create the first hidden layer and choose an appropriate activation function.
+![second_attemp](https://user-images.githubusercontent.com/116304118/230743148-a1270395-33ed-4e54-a6da-592ef4448b10.png)
 
-If necessary, add a second hidden layer with an appropriate activation function.
+This model achieved a predictive accuracy of 76.5%, which is higher than 75%. 
 
-Create an output layer with an appropriate activation function.
+To view the results, click here [`AlphabetSoupCharity_Optimization.h5`](https://github.com/HJandu/deep-learning-challenge/blob/main/h5_files/AlphabetSoupCharity_Optimization.h5)
 
-Check the structure of the model.
 
-Compile and train the model.
+## Final try
 
-Create a callback that saves the model's weights every five epochs.
+Although the second attempt achieved 76.5% predictive accuracy, which is higher than 75%, I thought I would try changing the function from `relu` to `LeakyReLU`, to see if a even higher predictive accuracy score could be achieved. I  kept everything the same, including the number of layers. 
+With this model, the predictive accuracy was 77.2%. 
 
-Evaluate the model using the test data to determine the loss and accuracy.
+![Screen Shot 2023-04-08 at 23 31 15](https://user-images.githubusercontent.com/116304118/230745389-ad048d20-7259-450b-86a3-22e708fdb660.png)
 
-Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity.h5.
+
+![Screen Shot 2023-04-08 at 23 31 06](https://user-images.githubusercontent.com/116304118/230745414-4f8403ff-0973-4a33-a668-106782aafc50.png)
+
+![Screen Shot 2023-04-08 at 23 30 55](https://user-images.githubusercontent.com/116304118/230745454-dce0dfe6-a0c9-488f-817d-2040d50e2434.png)
+
+
+## Summary
+
+In conclusion, the final model performed better with a predictive accuracy of 77.2% and loss of 0.465, which is less than the loss of the first and second model. Trying different activation functions, removing unnecessary columns, adding more hidden layers and inclreasing the epochs has helped with with the predictive accuracy score. 
+In the future, I could continue with the 'tanh' function and adjust some of the binning thresholds for the `NAME`, `CLASSIFICATION`, and `APPLICATION_TYPE` value counts.
+
+
+
