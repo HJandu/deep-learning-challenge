@@ -7,6 +7,8 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 
 From Alphabet Soup’s business team, I have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years.
 
+Please see report below.
+
 ## Preprocess the Data
 
 Using my knowledge of Pandas and scikit-learn’s StandardScaler(), I preprocessed the dataset. The charity_data.csv was read to a Pandas DataFrame, using Google Colab notebook. Once this was done, I identified the target and feature variables for the model. In my first attempt, I dropped the EIN and NAME columns, and determined the number of unique values for each column. These were used to pick a cutoff point to bin "rare" categorical variables together in a new value, Other, and then check if the binning was successful. `pd.get_dummies()` was used to encode categorical variables. I then split the preprocessed data into a features array, X, and a target array, y. Using these arrays and the train_test_split function, I split the data into training and testing datasets.
