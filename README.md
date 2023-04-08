@@ -24,7 +24,7 @@ Using my knowledge of TensorFlow and Keras, I designed a neural network model to
 ![first_attempt1](https://user-images.githubusercontent.com/116304118/230739532-2bdd70d1-d104-4f32-bff5-a945c1e1de49.png)
 
 
-To view the HDF5 file, click here [`AlphabetSoupCharity.h5`]("https://github.com/HJandu/deep-learning-challenge/blob/main/h5_files/AlphabetSoupCharity.h5")
+To view the HDF5 file, click here [`AlphabetSoupCharity.h5`](https://github.com/HJandu/deep-learning-challenge/blob/main/h5_files/AlphabetSoupCharity.h5)
 
 ## Optimize the Model
 
